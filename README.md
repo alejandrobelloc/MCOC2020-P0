@@ -6,12 +6,12 @@
 * Tipo: Notebook
 * Año adquisición: 2017
 * Procesador
-  Marca/Modelo: 
-  Velocidad base: 
-  Velocidad máxima: 
-  Número de núcleos: 
-  Humero de hilos:
-  Arquitectura: 
-  Set de instrucciones: 
+* Marca/Modelo: 
+* Velocidad base: 
+* Velocidad máxima: 
+* Número de núcleos: 
+* Humero de hilos:
+* Arquitectura: 
+* Set de instrucciones: 
 * Tamaño de las cachés del procesador
 
