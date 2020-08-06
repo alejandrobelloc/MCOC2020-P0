@@ -38,14 +38,14 @@
   - Tipo: HDD
   - Tamaño: 1 TB
   - Particiones: 1
-  - Sistema de archivos: 
+  - Sistema de archivos: NTFS
 
 # Disco 2: 
   - Marca: NVMe SAMSUNG MZVLW128 
   - Tipo: SSD 
   - Tamaño: 128 GB
   - Particiones: 3
-  - Sistema de archivos: 
+  - Sistema de archivos: NTFS
 
 # RED/WIFI 
 
