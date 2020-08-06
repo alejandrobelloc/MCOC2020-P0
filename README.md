@@ -47,7 +47,7 @@
   - Particiones: 3
   - Sistema de archivos: FALTA 
 
-# WIFI 
+# RED/WIFI 
 
 * Dirección MAC de la tarjeta wifi: 58-00-E3-F3-BE-09
 
