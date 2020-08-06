@@ -15,7 +15,7 @@
   - Número de núcleos: 4
   - Número de hilos: 8 
   - Arquitectura: Sistema operativo de 64 bits, procesador x64
-  - Set de instrucciones: FALTA
+  - Set de instrucciones: Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2
 
 # Tamaño de las cachés del procesador
   - L1: 256 kB
@@ -45,7 +45,7 @@
   - Tipo: SSD 
   - Tamaño: 128 GB
   - Particiones: 3
-  - Sistema de archivos: FALTA 
+  - Sistema de archivos: 
 
 # RED/WIFI 
 
