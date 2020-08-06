@@ -53,6 +53,6 @@
 
 * Dirección IP (Interna, del router): 192.168.0.241
 
-* Dirección IP (Externa, del ISP): 
+* Dirección IP (Externa, del ISP): 192.168.0.1
 
 * Proveedor internet: VTR Banda Ancha S.A.
