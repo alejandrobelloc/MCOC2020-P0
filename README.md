@@ -30,7 +30,7 @@
 
 # Tarjeta gráfica 
   - Marca/Modelo: NVIDIA GeForce GTX 1050 4 GB 
-  - Memoria dedicada: 
+  - Memoria dedicada: 4000 MB
   - Resolución: 1920x1080
 
 # Disco 1: 
