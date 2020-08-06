@@ -9,47 +9,47 @@
 * Año adquisición: 2017
 
 * Procesador
- Marca/Modelo: Intel Core i7-7700HQ 
- Velocidad base: 2,80 GHz
- Velocidad máxima: 3,8 GHz 
- Número de núcleos: 4
- Humero de hilos: 8 (DUDA) 
- Arquitectura: FALTA
- Set de instrucciones: FALTA
+ * Marca/Modelo: Intel Core i7-7700HQ 
+ * Velocidad base: 2,80 GHz
+ * Velocidad máxima: 3,8 GHz 
+ * Número de núcleos: 4
+ * Humero de hilos: 8 (DUDA) 
+ * Arquitectura: FALTA
+ * Set de instrucciones: FALTA
 
 * Tamaño de las cachés del procesador
- L1: 256 kB
- L2: 1,0 MB
- L3: 6,0 MB 
+ * L1: 256 kB
+ * L2: 1,0 MB
+ * L3: 6,0 MB 
 
 * Memoria
- Total: 16 GB
- Tipo de memoria: DDR4
- Velocidad: 2400 MHz
- Número de (SO)DIMM: 2 (DUDA) 
+ * Total: 16 GB
+ * Tipo de memoria: DDR4
+ * Velocidad: 2400 MHz
+ * Número de (SO)DIMM: 2 (DUDA) 
 
 * Tarjeta gráfica 
- Marca/Modelo: NVIDIA GeForce GTX 1050 4 GB 
- Memoria dedicada: 
- Resolución: 
+ * Marca/Modelo: NVIDIA GeForce GTX 1050 4 GB 
+ * Memoria dedicada: 
+ * Resolución: 
 
 * Disco 1: 
-Marca: Seagate ST1000LM035-1RK172
-Tipo: 
-Tamaño: 1 TB
-Particiones: 1
-Sistema de archivos: 
+ * Marca: Seagate ST1000LM035-1RK172
+ * Tipo: 
+ * Tamaño: 1 TB
+ * Particiones: 1
+ * Sistema de archivos: 
 
 * Disco 2: 
-Marca: NVMe SAMSUNG MZVLW128 
-Tipo: FALTA
-Tamaño: 128 GB
-Particiones: 3
-Sistema de archivos: FALTA 
+ * Marca: NVMe SAMSUNG MZVLW128 
+ * Tipo: FALTA
+ * Tamaño: 128 GB
+ * Particiones: 3
+ * Sistema de archivos: FALTA 
 
-* Dirección MAC de la tarjeta wifi: 
+* Dirección MAC de la tarjeta wifi: 58-00-E3-F3-BE-09
 
-* Dirección IP (Interna, del router): 
+* Dirección IP (Interna, del router): 192.168.0.241
 
 * Dirección IP (Externa, del ISP): 
 
