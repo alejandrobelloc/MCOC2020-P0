@@ -47,6 +47,8 @@
   - Particiones: 3
   - Sistema de archivos: FALTA 
 
+# WIFI 
+
 * Dirección MAC de la tarjeta wifi: 58-00-E3-F3-BE-09
 
 * Dirección IP (Interna, del router): 192.168.0.241
