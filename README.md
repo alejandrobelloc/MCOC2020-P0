@@ -1,5 +1,7 @@
 # MCOC2020-P0
 
+# Entrega 1:
+
 # Mi computador (Alejandro Bello Castillo) 
 
 * Marca/Modelo: Lenovo Legion Y520 
@@ -56,5 +58,7 @@
 * Dirección IP (Externa, del ISP): 192.168.0.1
 
 * Proveedor internet: VTR Banda Ancha S.A.
+
+# Entrega 2: 
 
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Gr%C3%A1fico%20python.png?raw=true)
