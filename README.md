@@ -74,7 +74,7 @@
   - Las diferencias se deben a la potencia de los computadores utilizados por el alumno y el profesor, teniendo carácteristicas un poco menos potentes en mi caso. Se debe a factores como la cantidad de núcleos, procesador (Generación) y la memoria RAM de cada computador, que según lo expuesto en clases por el profesor era de 32 GB vs el mío que posee 16 GB.
   
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
-  - Hola
+  - Se puede ver que el gráfico de memoria sí es lineal, esto se debe a que la memoria utilizada se realiza a través de una fórmula que variará en función del tamaño de matriz que se utiliza (En este caso N), y los bytes de almacenamiento, que son constantes y por lo tanto, no variará en función de la corrida que se realice, siempre obteniendose iguales datos. En cambio para el tiempo transcurrido, va a depender del procesador y la cantidad de procesos que se estén llevando a cabo en el mismo momento que se hace correr el programa. 
 
 * ¿Qué versión de python está usando?
   - La versión utilizada es: 3.8 en Spyder 4.1.4
