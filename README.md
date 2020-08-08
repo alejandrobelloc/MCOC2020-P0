@@ -68,7 +68,7 @@
 * Preguntas: 
 
 * ¿Como difiere del gráfico del profesor/ayudante?
-  - Hola
+  - En el caso del gráfico del tiempo transcurrido, existe una diferencia en los valores del inicio del programa (Con N=2), donde toma un mayor tiempo el gráfico presentado. Por otro lado, la variabilidad es en distintos N, siendo para el profesor en N [50,1000] y en el presentado N [20,200]. Finalmente, en el N = 50000 hay una relativa igualdad en el tiempo. (Notar que en el gráfico presentado, se llega hasta N = 5000, pues ante un mayor N, el tiempo en terminar las corridas era alto)
 
 * ¿A qué se pueden deber las diferencias?
   - Hola
