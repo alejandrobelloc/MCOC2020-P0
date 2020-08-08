@@ -71,18 +71,18 @@
   - Hola
 
 * ¿A qué se pueden deber las diferencias?
-  -
+  - Hola
   
 * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
-  -
+  - Hola
 
 * ¿Qué versión de python está usando?
-  -
+  - La versión utilizada es: 3.8
 
 * ¿Qué versión de numpy está usando?
-  -
+  - La versión utilizada es: 1.18.5
 
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
-  -
+  - Hola
   
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Procesador.png?raw=true)
