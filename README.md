@@ -68,7 +68,7 @@
 * Preguntas: 
 
 * ¿Como difiere del gráfico del profesor/ayudante?
-  -
+  - Hola
 
 * ¿A qué se pueden deber las diferencias?
   -
