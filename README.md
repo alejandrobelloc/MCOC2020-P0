@@ -67,17 +67,22 @@
 
 * Preguntas: 
 
-* 1)
+* ¿Como difiere del gráfico del profesor/ayudante?
+  -
 
-* 1)
+* ¿A qué se pueden deber las diferencias?
+  -
+  
+* El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser?
+  -
 
-* 1)
+* ¿Qué versión de python está usando?
+  -
 
-* 1)
+* ¿Qué versión de numpy está usando?
+  -
 
-* 1)
-
-* 1)
-
-
+* Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
+  -
+  
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Procesador.png?raw=true)
