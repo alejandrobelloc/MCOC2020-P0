@@ -91,7 +91,7 @@
 ## Desempeño Mimatmul
 * Gráfico:
 
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Gr%C3%A1fico%20python.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Gr%C3%A1fico%20E3.png?raw=true)
 
 * Preguntas: 
 
@@ -113,4 +113,4 @@
 * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar. 
   - Según lo expuesto en la imagen, se puede observar el uso de los 8 procesadores. 
   
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.pngraw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
