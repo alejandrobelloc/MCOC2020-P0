@@ -129,8 +129,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   Si se observa como es la utilización de los cachés y la cpu, para cada caso (Caso I,II y III respectivamente), se puede ver lo siguiente: 
   
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20I.png?raw=true)
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20II.png?raw=true)
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20III.png?raw=true)
 
   
   
