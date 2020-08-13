@@ -118,10 +118,10 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 # Entrega 4:
 
-*Preguntas:
+* Preguntas:
 
-*¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
- - Respuesta
+* ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
+  - Respuesta
 
-*¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
- - Respuesta
+* ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
+  - Respuesta
