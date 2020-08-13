@@ -121,9 +121,17 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 * Preguntas:
 
 * ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
-  - Respuesta
+  - Se realiza mediante el método de Algebra Lineal que posee numpy, mediante cálculos con programación de bajo nivel, siendo numpy más eficiente y proactivo que scipy para este tipo de problemas de álgebra. Los posibles casos de inversión de matrices pueden ser diagonalización, propiedades de matrices, etc.
 
 * ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
-  - Respuesta
+  - El paralelismo en la arquitectura del computador, es una función en la cual se permite realizar varias tareas al mismo tiempo, tomando diversos porcentajes de uso de la cpu en función de las tareas y la complejidad de realización que estas tienen. El caché busca la realización más rápida de algunas tareas que ya se han realizado antes, guardando estos datos para futuros usos.
+  
+  Si se observa como es la utilización de los cachés y la cpu, para cada caso, se puede ver lo siguiente: 
+  
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
+
+  
   
 
