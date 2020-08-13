@@ -125,3 +125,5 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 * ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
   - Respuesta
+  
+
