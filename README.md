@@ -117,7 +117,11 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU.png?raw=true)
 
 # Entrega 4:
-
+* Análisis de gráficos generales: 
+ - Se puede observar que ambas funciones, tanto numpy como scipy no se notó una gran variación de rendimiento ni de uso de memoria, dando gráficos más bien parecidos. Esto se puede deber al método que usan ambos, que para el tiempo que demora con las características del computador como el procesador, ram, etc, tienen un efecto parecido. 
+ 
+ - Respecto a la funciones True and False, se puede observar una mayor ganancia de desempeño y un menor uso de CPU en el caso True, esto es debido a que toma en consideración las Cachés del computador, pudiendo guardar alguna similitud de archivos para los distintos textos, lo que obtiene lo anteriormente mencionado. En el caso de False, esto no es así, partiendo de 0 el cálculo de cada matriz lo que conllevará una disminución de desempeño y un aumento de uso de la CPU, lo que es posible ver más adelante con los gráficos puestos.
+ 
 * Preguntas:
 
 * ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
