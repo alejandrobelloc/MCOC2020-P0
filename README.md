@@ -135,6 +135,13 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20II.png?raw=true)
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20III.png?raw=true)
 
+# Entrega 5:
+* Acá se encuentra el gráfico para tan solo para una de las dos formas de realizar el sistema de ecuaciones, me faltó tiempo para el sgdo, tuve otra entrega en otro ramo el mismo día.. 
+
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/E5.png?raw=true)
+
+
+
   
   
 
