@@ -131,14 +131,14 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - El paralelismo en la arquitectura del computador, es una función en la cual se permite realizar varias tareas al mismo tiempo, tomando diversos porcentajes de uso de la cpu en función de las tareas y la complejidad de realización que estas tienen. El caché busca la realización más rápida de algunas tareas que ya se han realizado antes, guardando estos datos para futuros usos. Debido a lo anterior, es que la cpu y el uso de caché en función de los casos que se van realizando, debería tomar un menor % de uso, para la última función que toma, es decir single,double,.. etc. 
   Si se observa como es la utilización de los cachés y la cpu, para cada caso (Caso I,II y III respectivamente), se puede ver lo siguiente: 
   
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20I.png?raw=true)
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20II.png?raw=true)
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20III.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20I.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20II.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20CASO%20III.png?raw=true)
 
 # Entrega 5:
 * Acá se encuentra el gráfico para tan solo para una de las dos formas de realizar el sistema de ecuaciones, me faltó tiempo para el sgdo, tuve otra entrega en otro ramo el mismo día.. 
 
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/E5.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/E5.png?raw=true)
 
 # Entrega 6:
 * En la entrega número 6 se replicó lo que se hizo para la entrega 5, agregando los solver de scipy con algunas de sus opciones, estas son: 
@@ -161,11 +161,11 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20n%C3%BAcleos.png?raw=true)
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20su%20%25%20de%20uso.png?raw=true)
 
-*En el primer gráfico, se puede observar el gran uso de ambas caracteristicas del computador, exigiendo tanto los hilos del procesador (A valores no menos del 21% y máximos de 84%) como también los núcleos (Valores del 3393 MHz, casi en el máximo de su capacidad).
+* En el primer gráfico, se puede observar el gran uso de ambas caracteristicas del computador, exigiendo tanto los hilos del procesador (A valores no menos del 21% y máximos de 84%) como también los núcleos (Valores del 3393 MHz, casi en el máximo de su capacidad).
 
-*El segundo gráfico es para mostrar los bumps que posee la CPU y su % de uso, que se puede deber a lo anteriormente expuesto, como por ejemplo el overwrite de scipy con bumps más bajos y la inversión de matrices para los bumps más elevados. 
+* El segundo gráfico es para mostrar los bumps que posee la CPU y su % de uso, que se puede deber a lo anteriormente expuesto, como por ejemplo el overwrite de scipy con bumps más bajos y la inversión de matrices para los bumps más elevados. 
 
-*Fin.
+* Fin.
 
   
   
