@@ -140,6 +140,9 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/E5.png?raw=true)
 
+# Entrega 6:
+
+*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
 
 
   
