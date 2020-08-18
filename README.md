@@ -148,7 +148,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Overwrite (Sobreescribe datos, lo que en un inicio podría demorar, pero luego, toma menos tiempo; Mejora rendimiento)
 * A partir de lo anterior, se graficó la perfomance de como afectaba al tiempo de ejecución los distintos solver y sus opciones, tanto en numpy y scipy, el gráfico se puede observar a continuación, el cual se realizó bajo 10 corridas llegando a un N máximo igual a 10.000.
 
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B06/Entrega%206.png?raw=true)
 
 * Como es observable, se puede ver una relativa similitud en los tiempos transcurridos para bajo tamaños de matrices (Entre 2 y 200) para luego separarse en dos lineas prácticamente lineales donde se va un tipo de solver con menos efectividad de tiempos, y el resto, convergiendo a valores similares con tiempos más eficientes. 
 
@@ -158,8 +158,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 * También podemos observar el uso de la cpu en dos programas, tanto de HWMONITORPRO y el administrador de tareas de windows, junto con los núcleos del computador (4): 
 
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20n%C3%BAcleos.png?raw=true)
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20su%20%25%20de%20uso.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B06/CPU%20y%20n%C3%BAcleos.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B06/CPU%20y%20su%20%25%20de%20uso.png?raw=true)
 
 * En el primer gráfico, se puede observar el gran uso de ambas caracteristicas del computador, exigiendo tanto los hilos del procesador (A valores no menos del 21% y máximos de 84%) como también los núcleos (Valores del 3393 MHz, casi en el máximo de su capacidad).
 
