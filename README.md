@@ -142,10 +142,10 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 # Entrega 6:
 * En la entrega número 6 se replicó lo que se hizo para la entrega 5, agregando los solver de scipy con algunas de sus opciones, estas son: 
- - Symmetric
- - Solver de scipy
- - Invirtiendo la matriz a través del solver
- - Overwrite
+  - Symmetric
+  - Solver de scipy
+  - Invirtiendo la matriz a través del solver
+  - Overwrite
 * A partir de lo anterior, se graficó la perfomance de como afectaba al tiempo de ejecución los distintos solver y sus opciones, tanto en numpy y scipy, el gráfico se puede observar a continuación: 
 
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
