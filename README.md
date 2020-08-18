@@ -148,9 +148,14 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Overwrite
 * A partir de lo anterior, se graficó la perfomance de como afectaba al tiempo de ejecución los distintos solver y sus opciones, tanto en numpy y scipy, el gráfico se puede observar a continuación, el cual se realizó bajo 10 corridas llegando a un N máximo igual a 10.000.
 
-*![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
 
 * Como es observable, se puede ver una relativa similitud en los tiempos transcurridos para bajo tamaños de matrices (Entre 2 y 200) para luego separarse en dos lineas prácticamente lineales donde se va un tipo de solver con menos efectividad de tiempos, y el resto, convergiendo a valores similares con tiempos más eficientes. 
+
+Especificamente, en un inicio, el solver de numpy puro, sin necesidad de invertir la matriz, tomó una menor cantidad de tiempo, en cambio, el solver de scipy puro, tomó una mayor cantidad de tiempo de ejecución. 
+
+Si vemos el caso final, se observa que el solver de numpy con el método de inversión de la matriz (A ; A*x = b) es el que toma la mayor cantidad de tiempo ante grande tamaños de matrices, que en este caso es sobre N = 200, seguido por el solver de scipy, que ocupa el mismo método de resolución de sistema de ecuaciones matriciales. En cambio, los métodos que no realizan inversión directa de la matriz A. toman un tiempo similar llegando a un tiempo máximo de ejecución bajo matrices de N = 10.000 de 10 segundos. Esto es completamente esperable, pues al sistema le cuesta mucha más memoria y capacidad del procesador el realizar la inversión de matrices grandes, pues la aproximación de valores van tomando grandes errores a medida que se aumenta este último valor, en cambio, solver directos a través de librerias como numpy y scipy, optimizan las operaciones. Además de esto, al tener la matriz laplaciana tenemos grandes cantidades de valores con 0, cosa que al invertir las matrices, tomará más tiempo, siendo que estos valores son inutiles para el cálculo, ya que quedarán como 0 de igual manera para invertir la matriz. 
+
 
   
   
