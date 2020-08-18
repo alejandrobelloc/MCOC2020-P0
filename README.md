@@ -156,10 +156,14 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 * Si vemos el caso final, se observa que el solver de numpy con el método de inversión de la matriz (A ; A*x = b) es el que toma la mayor cantidad de tiempo ante grande tamaños de matrices, que en este caso es sobre N = 200, seguido por el solver de scipy, que ocupa el mismo método de resolución de sistema de ecuaciones matriciales. En cambio, los métodos que no realizan inversión directa de la matriz A. toman un tiempo similar llegando a un tiempo máximo de ejecución bajo matrices de N = 10.000 de 10 segundos. Esto es completamente esperable, pues al sistema le cuesta mucha más memoria y capacidad del procesador el realizar la inversión de matrices grandes, pues la aproximación de valores van tomando grandes errores a medida que se aumenta este último valor, en cambio, solver directos a través de librerias como numpy y scipy, optimizan las operaciones. Además de esto, al tener la matriz laplaciana tenemos grandes cantidades de valores con 0, cosa que al invertir las matrices, tomará más tiempo, siendo que estos valores son inutiles para el cálculo, ya que quedarán como 0 de igual manera para invertir la matriz. 
 
-* También podemos observar el uso de la cpu del computador exigida al máximo dentro del código: 
+* También podemos observar el uso de la cpu en dos programas, tanto de HWMONITORPRO y el administrador de tareas de windows, junto con los núcleos del computador (4): 
 
-![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20n%C3%BAcleos.png?raw=true)
+![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20su%20%25%20de%20uso.png?raw=true)
 
+*En el primer gráfico, se puede observar el gran uso de ambas caracteristicas del computador, exigiendo tanto los hilos del procesador (A valores no menos del 21% y máximos de 84%) como también los núcleos (Valores del 3393 MHz, casi en el máximo de su capacidad).
+*El segundo gráfico es para mostrar los bumps que posee la CPU y su % de uso, que se puede deber a lo anteriormente expuesto, como por ejemplo el overwrite de scipy con bumps más bajos y la inversión de matrices para los bumps más elevados. 
+*Fin.
 
   
   
