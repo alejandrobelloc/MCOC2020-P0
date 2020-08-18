@@ -146,10 +146,11 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Solver de scipy
   - Invirtiendo la matriz a través del solver
   - Overwrite
-* A partir de lo anterior, se graficó la perfomance de como afectaba al tiempo de ejecución los distintos solver y sus opciones, tanto en numpy y scipy, el gráfico se puede observar a continuación: 
+* A partir de lo anterior, se graficó la perfomance de como afectaba al tiempo de ejecución los distintos solver y sus opciones, tanto en numpy y scipy, el gráfico se puede observar a continuación, el cual se realizó bajo 10 corridas llegando a un N máximo igual a 10.000.
 
 *![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%206.png?raw=true)
 
+* Como es observable, se puede ver una relativa similitud en los tiempos transcurridos para bajo tamaños de matrices (Entre 2 y 200) para luego separarse en dos lineas prácticamente lineales donde se va un tipo de solver con menos efectividad de tiempos, y el resto, convergiendo a valores similares con tiempos más eficientes. 
 
   
   
