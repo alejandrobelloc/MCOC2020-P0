@@ -162,7 +162,9 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/CPU%20y%20su%20%25%20de%20uso.png?raw=true)
 
 *En el primer gráfico, se puede observar el gran uso de ambas caracteristicas del computador, exigiendo tanto los hilos del procesador (A valores no menos del 21% y máximos de 84%) como también los núcleos (Valores del 3393 MHz, casi en el máximo de su capacidad).
+
 *El segundo gráfico es para mostrar los bumps que posee la CPU y su % de uso, que se puede deber a lo anteriormente expuesto, como por ejemplo el overwrite de scipy con bumps más bajos y la inversión de matrices para los bumps más elevados. 
+
 *Fin.
 
   
