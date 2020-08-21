@@ -167,6 +167,32 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 * Fin.
 
+# Entrega 6:
+* Complejidad algoritmica de MATMUL
+  - Gráfico: 
+* Diferencias entre las matrices llenas y dispersas.
+  - Respuesta.. 
   
+* Complejidad asintótica para el ensamblado y solución en ambos casos.
+  - Respuesta.. 
   
+* Como afecta el tamaño de las matrices al comportamiento aparente.
+  - Respuesta..
+  
+* Son estables las corridas (Número de corridas = 5). 
+  - Respuesta
+
+* Complejidad algoritmica de SOLVE
+  - Gráfico: 
+* Diferencias entre las matrices llenas y dispersas.
+  - Respuesta.. 
+  
+* Complejidad asintótica para el ensamblado y solución en ambos casos.
+  - Respuesta.. 
+  
+* Como afecta el tamaño de las matrices al comportamiento aparente.
+  - Respuesta..
+  
+* Son estables las corridas (Número de corridas = 5). 
+  - Respuesta
 
