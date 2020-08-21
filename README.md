@@ -167,8 +167,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 * Fin.
 
-## Entrega 7:
-# Complejidad algoritmica de MATMUL
+# Entrega 7:
+## Complejidad algoritmica de MATMUL
   - Gráfico: 
 * Diferencias entre las matrices llenas y dispersas.
   - Respuesta.. 
@@ -182,7 +182,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 * Son estables las corridas (Número de corridas = 5). 
   - Respuesta
 
-# Complejidad algoritmica de SOLVE
+## Complejidad algoritmica de SOLVE
   - Gráfico: 
 * Diferencias entre las matrices llenas y dispersas.
   - Respuesta.. 
