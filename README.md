@@ -168,13 +168,12 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 * Fin.
 
 # Entrega 7:
-## Complejidad algoritmica de MATMUL
-  - Gráfico: 
+## Complejidad algoritmica de MATMUL 
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Matmul(A%40B)%20%3B%20Matriz%20Llena.png?raw=true)
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Matmul(A%40B)%20%3B%20Matriz%20Dispersa.png?raw=true)
   
 * Diferencias entre las matrices llenas y dispersas.
-  - Respuesta.. 
+  - Se puede observar dentro de ambos gráficos que en la matriz llena, hay una leve mejora en el tiempo de ensamblado versus la matriz dispersa, teniendo diferencias pequeñas, pero siempre menores para las distintas corridas (N=5), luego se puede observar que en la matriz llena, existen distintos bumps en valores pequeños de tamaño de matrices, cosa que en la matriz dispersa no pasa, teniendo un comportamiento practicamente 'lineal'. En el caso del tiempo de solución se puede ver una mejora también en el mismo orden que el anterior, sin embargo a largo plazo con matrices grandes, el tiempo de solución es mucho mayor para la matriz llena avanzando de manera prácticamente cuadrática vs practicamente una linea recta del tiempo de solución, tomando valores cercanos al 1ms en la matriz dispersa.
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
   - Respuesta.. 
@@ -183,14 +182,13 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Respuesta..
   
 * Son estables las corridas (Número de corridas = 5). 
-  - Respuesta
+  - Para la matriz llena, tanto en el tiempo ensamblado como en el de solución, se puede observar que la gran mayoria de las corridas convergen a un mismo valor a lo largo del tamaño de la matriz, sin embargo se observan pequeños bumps ante matrices de bajos tamaños, en valores cercanos al 0 hasta el 100, sin embargo para tamaños más grandes, sí convergen al mismo valor. Para la matriz dispersa, si se puede observar una estabilidad en función del tamaño de matriz, tomando los mismos valores en función del gráfico y el tiempo que se está tomando. 
 
 ## Complejidad algoritmica de SOLVE
-  - Gráfico: 
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Solve(A%2Cb)%20%3B%20Matriz%20Llena.png?raw=true)
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Solve(A%2Cb)%20%3B%20Matriz%20Dispersa.png?raw=true)
 * Diferencias entre las matrices llenas y dispersas.
-  - Respuesta.. 
+  - En este caso, se puede observar que comienza de manera más rápida el solve de la matriz llena, con diferencias bajas entre ambos métodos, a su vez, a medida que aumentamos el tamaño de matriz, también tiene una mayor rapidez la matriz llena, tomando en consideración, el TIEMPO DE ENSAMBLADO, practicamente teniendo comportamientos convergentes para todas las corridas. Para el tiempo de solución de ambos métodos de matrices, se puede observar lo mismo que lo anterior, es decir, la matriz llena comienza más rápido ante valores pequeños de tamaño de matrices, sin embargo a medida que aumentamos el tamaño de matriz, se puede observar que el tiempo de solución es menor la matriz dispersa vs la matriz llena. (En baja cantidad de diferencia)
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
   - Respuesta.. 
@@ -199,14 +197,13 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Respuesta..
   
 * Son estables las corridas (Número de corridas = 5). 
-  - Respuesta
+  - Se puede observar que las corridas de la matriz llena si son estables en función del tamaño de la matriz, a excepción del tiempo de solución ante bajos N, donde se observan unos pequeños bumps en el tamaño de alrededor N = 0 ; N = 30, sin embargo, después de sobre pasar esto, convergen a valores similares. En el caso de la matriz dispersa, se puede observar que hay practicamente una estabilidad completa en las corridas que se dieron para este caso (N=5), convergiendo todas a valores practicamente iguales. 
 
 ## Complejidad algoritmica de INV
-  - Gráfico: 
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Inv(A)%20%3B%20Matriz%20Llena.png?raw=true)
   ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Inv(A)%20%3B%20Matriz%20Dispersa.png?raw=true)
 * Diferencias entre las matrices llenas y dispersas.
-  - Respuesta.. 
+  - Se puede observar que en el caso de tiempo de ensamblado, la matriz llena vs la matriz dispersa, la primera se demora menos que la segunda ante valores muy pequeños de N (Alrededor de 200), para luego tender a demorarse practicamente lo mismo, sin embargo al llegar al tamaño de matrices muy altas, demorarse más la matriz dispersa. En el caso del tiempo de solución, se puede observar que la matriz llena es más rápida en la resolución de la inversión de la matriz A, sin embargo después toma una pendiente de aumento de tiempo muy baja hasta el N = 500, por lo que el tiempo de la matriz dispersa lo llega a alcanzar para finalmente, tomar valores de solución similares ante tamaños grandes de matrices. 
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
   - Respuesta.. 
@@ -215,4 +212,4 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Respuesta..
   
 * Son estables las corridas (Número de corridas = 5). 
-  - Respuesta
+  - Para el caso de la matriz llena, se puede observar una baja estabilidad ante tamaños de matrices pequeños tanto en su tiempo de ensamblado como también en el tiempo de solución, esto está pasando en N = 0 y N = 80, para luego, llegar a una manera completamente convergente ante aumento de valores del tamaño de la matriz N. En el caso de la matriz dispersa, en ambos casos existe una completa linealidad en el aumento del tiempo en función del tamaño N, donde no es posible captar a simple vista pequeños incrementos de tiempo en diferentes números de corridas. 
