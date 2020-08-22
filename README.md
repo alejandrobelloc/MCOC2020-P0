@@ -176,8 +176,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Se puede observar dentro de ambos gráficos que en la matriz llena, hay una leve mejora en el tiempo de ensamblado versus la matriz dispersa, teniendo diferencias pequeñas, pero siempre menores para las distintas corridas (N=5), luego se puede observar que en la matriz llena, existen distintos bumps en valores pequeños de tamaño de matrices, cosa que en la matriz dispersa no pasa, teniendo un comportamiento practicamente 'lineal'. En el caso del tiempo de solución se puede ver una mejora también en el mismo orden que el anterior, sin embargo a largo plazo con matrices grandes, el tiempo de solución es mucho mayor para la matriz llena avanzando de manera prácticamente cuadrática vs practicamente una linea recta del tiempo de solución, tomando valores cercanos al 1ms en la matriz dispersa.
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
-  - Respuesta.. 
-  
+  - Para el caso de la matriz llena: El ensamblado, cuando N tiende a infinito al observar las pendientes de los distintos N(2,3,4), yo diría que este esta tendiendo a un N cubo. A la solución, yo diría que y se puede observar claramente que este está tendiendo a un N3 de igual manera que el anterior.
+  - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a una constante, la cual es representada mediante la linea azul. 
 * Como afecta el tamaño de las matrices al comportamiento aparente.
   - Respuesta..
   
