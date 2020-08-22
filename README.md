@@ -218,7 +218,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   
 ## Ensamblaje Matriz Laplaciana Llena
 
-'''from numpy import zeros,double
+```from numpy import zeros,double
 import numpy as np
 
 def matriz_laplaciana_llena(N, dtype=double):
@@ -240,11 +240,11 @@ def matriz_laplaciana_llena(N, dtype=double):
                 
     return Matrizlp
 
-Está matriz llena ya fue comprobada en la entrega N°6 ; Donde se ve claramente que toma todos los valores propios de la matriz "N", incluyendo 0s.'''
+Está matriz llena ya fue comprobada en la entrega N°6 ; Donde se ve claramente que toma todos los valores propios de la matriz "N", incluyendo 0s.```
 
 ## Ensamblaje Matriz Laplaciana Dispersa
 
-'''from numpy import zeros,double
+```from numpy import zeros,double
 import numpy as np
 from scipy.sparse import lil_matrix
 
@@ -266,4 +266,4 @@ def matriz_laplaciana_dispersa(N,t=np.float32):
  Comprobamos que esté bien y tome solo los valores distintos de 0 en la matriz: 
  X = matriz_laplaciana_dispersa(10)
  print(X)
- Está todo ok, da valores (1,0) - Valor ---> Lo que significa que toma la fila N°1 y la columna 0 con valor un "Y"'''
+ Está todo ok, da valores (1,0) - Valor ---> Lo que significa que toma la fila N°1 y la columna 0 con valor un "Y"```
