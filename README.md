@@ -191,7 +191,10 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - En este caso, se puede observar que comienza de manera más rápida el solve de la matriz llena, con diferencias bajas entre ambos métodos, a su vez, a medida que aumentamos el tamaño de matriz, también tiene una mayor rapidez la matriz llena, tomando en consideración, el TIEMPO DE ENSAMBLADO, practicamente teniendo comportamientos convergentes para todas las corridas. Para el tiempo de solución de ambos métodos de matrices, se puede observar lo mismo que lo anterior, es decir, la matriz llena comienza más rápido ante valores pequeños de tamaño de matrices, sin embargo a medida que aumentamos el tamaño de matriz, se puede observar que el tiempo de solución es menor la matriz dispersa vs la matriz llena. (En baja cantidad de diferencia)
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
-  - Respuesta.. 
+  - Para el caso de la matriz llena: El ensamblado, cuando N tiende a infinito al observar las pendientes de los distintos N(2,3,4), yo diría que este esta tendiendo a un N cuadrado. A la solución, yo diría que y se puede observar claramente que este está tendiendo a un N cubo al tender N a infinito.
+  - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a N, la cual es representada mediante la linea amarilla, que avanza como una función y = x. 
+* Como afecta el tamaño de las matrices al comportamiento aparente.
+  - Respuesta..
   
 * Como afecta el tamaño de las matrices al comportamiento aparente.
   - Respuesta..
@@ -206,7 +209,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Se puede observar que en el caso de tiempo de ensamblado, la matriz llena vs la matriz dispersa, la primera se demora menos que la segunda ante valores muy pequeños de N (Alrededor de 200), para luego tender a demorarse practicamente lo mismo, sin embargo al llegar al tamaño de matrices muy altas, demorarse más la matriz dispersa. En el caso del tiempo de solución, se puede observar que la matriz llena es más rápida en la resolución de la inversión de la matriz A, sin embargo después toma una pendiente de aumento de tiempo muy baja hasta el N = 500, por lo que el tiempo de la matriz dispersa lo llega a alcanzar para finalmente, tomar valores de solución similares ante tamaños grandes de matrices. 
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
-  - Respuesta.. 
+  - Para el caso de la matriz llena: El ensamblado, cuando N tiende a infinito al observar las pendientes de los distintos N(2,3,4), yo diría que este esta tendiendo a un N cuadrado. A la solución, yo diría que y se puede observar claramente que este está tendiendo a un N cubo al tender N a infinito.
+  - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a N cuadrado, la cual es representada mediante la linea verde, que avanza como una función y = x2. 
   
 * Como afecta el tamaño de las matrices al comportamiento aparente.
   - Respuesta..
