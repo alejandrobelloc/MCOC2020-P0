@@ -170,8 +170,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 # Entrega 7:
 ## Complejidad algoritmica de MATMUL
   - Gráfico: 
-  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%207/Matmul(A%40B)%20%3B%20Matriz%20Llena.png?raw=true)
-  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%207/Matmul(A%40B)%20%3B%20Matriz%20Dispersa.png?raw=true)
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Matmul(A%40B)%20%3B%20Matriz%20Llena.png?raw=true)
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Matmul(A%40B)%20%3B%20Matriz%20Dispersa.png?raw=true)
   
 * Diferencias entre las matrices llenas y dispersas.
   - Respuesta.. 
@@ -187,8 +187,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 ## Complejidad algoritmica de SOLVE
   - Gráfico: 
-  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%207/Solve(A%2Cb)%20%3B%20Matriz%20Llena.png?raw=true)
-  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%207/Matmul(A%40B)%20%3B%20Matriz%20Dispersa.png?raw=true)
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Solve(A%2Cb)%20%3B%20Matriz%20Llena.png?raw=true)
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Solve(A%2Cb)%20%3B%20Matriz%20Dispersa.png?raw=true)
 * Diferencias entre las matrices llenas y dispersas.
   - Respuesta.. 
   
@@ -203,6 +203,8 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
 
 ## Complejidad algoritmica de INV
   - Gráfico: 
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Inv(A)%20%3B%20Matriz%20Llena.png?raw=true)
+  ![alt text](https://github.com/alejandrobelloc/MCOC2020-P0/blob/master/Entrega%20N%C2%B07/Inv(A)%20%3B%20Matriz%20Dispersa.png?raw=true)
 * Diferencias entre las matrices llenas y dispersas.
   - Respuesta.. 
   
