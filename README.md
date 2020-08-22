@@ -215,3 +215,55 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   
 * Son estables las corridas (Número de corridas = 5). 
   - Para el caso de la matriz llena, se puede observar una baja estabilidad ante tamaños de matrices pequeños tanto en su tiempo de ensamblado como también en el tiempo de solución, esto está pasando en N = 0 y N = 80, para luego, llegar a una manera completamente convergente ante aumento de valores del tamaño de la matriz N. En el caso de la matriz dispersa, en ambos casos existe una completa linealidad en el aumento del tiempo en función del tamaño N, donde no es posible captar a simple vista pequeños incrementos de tiempo en diferentes números de corridas. 
+  
+## Ensamblaje Matriz Laplaciana Llena
+
+'''from numpy import zeros,double
+import numpy as np
+
+def matriz_laplaciana_llena(N, dtype=double):
+    
+    Matrizlp = zeros((N,N), dtype=double)
+    
+    for i in range (N):
+        
+        for j in range (N):
+            
+            if i==j:
+                Matrizlp[i,j]=2
+                
+            if i+1==j:
+                Matrizlp[i,j]=-1
+                
+            if i-1==j:
+                Matrizlp[i,j]=-1
+                
+    return Matrizlp
+
+Está matriz llena ya fue comprobada en la entrega N°6 ; Donde se ve claramente que toma todos los valores propios de la matriz "N", incluyendo 0s.'''
+
+## Ensamblaje Matriz Laplaciana Dispersa
+
+'''from numpy import zeros,double
+import numpy as np
+from scipy.sparse import lil_matrix
+
+def matriz_laplaciana_dispersa(N,t=np.float32):
+    
+    A = lil_matrix((N,N))
+    
+    for i in range(N):
+        
+        for j in range(N):
+            if i == j:
+                A[i,j] = 2
+            if i+1 == j:
+                A[i,j] = -1
+            if i-1 == j:
+                A[i,j] = -1
+    return A
+
+ Comprobamos que esté bien y tome solo los valores distintos de 0 en la matriz: 
+ X = matriz_laplaciana_dispersa(10)
+ print(X)
+ Está todo ok, da valores (1,0) - Valor ---> Lo que significa que toma la fila N°1 y la columna 0 con valor un "Y"'''
