@@ -192,9 +192,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   
 * Complejidad asintótica para el ensamblado y solución en ambos casos.
   - Para el caso de la matriz llena: El ensamblado, cuando N tiende a infinito al observar las pendientes de los distintos N(2,3,4), yo diría que este esta tendiendo a un N cuadrado. A la solución, yo diría que y se puede observar claramente que este está tendiendo a un N cubo al tender N a infinito.
-  - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a N, la cual es representada mediante la linea amarilla, que avanza como una función y = x. 
-* Como afecta el tamaño de las matrices al comportamiento aparente.
-  - Respuesta..
+  - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a N, la cual es representada mediante la linea amarilla, que avanza como una función y = x.  
   
 * Como afecta el tamaño de las matrices al comportamiento aparente.
   - En este caso, tanto para matrices llenas y dispersas se observa un aumento lineal del tiempo tanto de ejecución como de ensamblado ante el aumento del tamaño de la matriz, sin embargo a simple vista, es posible analizar que el aumento (pendiente) existente, es menor en el caso de la matriz dispersa, esto es debido a lo anteriormente mencionado, además de posibles programas que uno estuviese trabajando al mismo tiempo que corría spyder (Python).
