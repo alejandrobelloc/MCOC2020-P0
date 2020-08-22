@@ -179,7 +179,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Para el caso de la matriz llena: El ensamblado, cuando N tiende a infinito al observar las pendientes de los distintos N(2,3,4), yo diría que este esta tendiendo a un N cubo. A la solución, yo diría que y se puede observar claramente que este está tendiendo a un N3 de igual manera que el anterior.
   - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a una constante, la cual es representada mediante la linea azul. 
 * Como afecta el tamaño de las matrices al comportamiento aparente.
-  - Respuesta..
+  - En el caso de la matriz llena, podemos observar que a medida que aumenta el tamaño de matriz N, aumenta el tiempo de ejecución del programa, esto es visiblemente cierto ante hipotesis previas que se pueden realizar antes de correr el programa, pues al computador le cuesta más la ejecución y el calculo, al tener que aproximar valores, errores, etc. Para el caso de la matriz dispersa, es fácil ver que en el caso del ensamblado, ocurre lo que uno esperaría, que existe una relación directa entre ambos factores, sin embargo, para el tiempo de ejecución ocurre algo relativamente anormal, si es que uno no entiende lo que realiza la matriz dispersa, esperaria una respuesta como la que mencione, pero debido a que este comando lo que hace es "desactivar" todas las diagonales y valores que toman el 0, hace que el programa sea muy efectivo, y no tome en consideración diversos valores que si lo hace el caso de matriz llena, optimizando el cálculo del Matmul entre A y B. 
   
 * Son estables las corridas (Número de corridas = 5). 
   - Para la matriz llena, tanto en el tiempo ensamblado como en el de solución, se puede observar que la gran mayoria de las corridas convergen a un mismo valor a lo largo del tamaño de la matriz, sin embargo se observan pequeños bumps ante matrices de bajos tamaños, en valores cercanos al 0 hasta el 100, sin embargo para tamaños más grandes, sí convergen al mismo valor. Para la matriz dispersa, si se puede observar una estabilidad en función del tamaño de matriz, tomando los mismos valores en función del gráfico y el tiempo que se está tomando. 
@@ -197,7 +197,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Respuesta..
   
 * Como afecta el tamaño de las matrices al comportamiento aparente.
-  - Respuesta..
+  - En este caso, tanto para matrices llenas y dispersas se observa un aumento lineal del tiempo tanto de ejecución como de ensamblado ante el aumento del tamaño de la matriz, sin embargo a simple vista, es posible analizar que el aumento (pendiente) existente, es menor en el caso de la matriz dispersa, esto es debido a lo anteriormente mencionado, además de posibles programas que uno estuviese trabajando al mismo tiempo que corría spyder (Python).
   
 * Son estables las corridas (Número de corridas = 5). 
   - Se puede observar que las corridas de la matriz llena si son estables en función del tamaño de la matriz, a excepción del tiempo de solución ante bajos N, donde se observan unos pequeños bumps en el tamaño de alrededor N = 0 ; N = 30, sin embargo, después de sobre pasar esto, convergen a valores similares. En el caso de la matriz dispersa, se puede observar que hay practicamente una estabilidad completa en las corridas que se dieron para este caso (N=5), convergiendo todas a valores practicamente iguales. 
@@ -213,7 +213,7 @@ En la memoria usada, existe una prácticamente igualdad en sus términos. (Notar
   - Para el caso de la matriz dispersa: El ensamblado tiende de manera clara a N cuadrado, convergiendo practicamente al mismo valor ante N tendiendo a infinito. Para el caso de la solución se puede observar que tiende a N cuadrado, la cual es representada mediante la linea verde, que avanza como una función y = x2. 
   
 * Como afecta el tamaño de las matrices al comportamiento aparente.
-  - Respuesta..
+  - En este caso, tanto para matrices llenas y dispersas se observa un aumento lineal del tiempo tanto de ejecución como de ensamblado ante el aumento del tamaño de la matriz, sin embargo a simple vista, es posible analizar que el aumento (pendiente) existente, es menor en el caso de la matriz dispersa, esto es debido a lo anteriormente mencionado, además de posibles programas que uno estuviese trabajando al mismo tiempo que corría spyder (Python), ocurriendo lo mismo que en el punto de SOLVE. 
   
 * Son estables las corridas (Número de corridas = 5). 
   - Para el caso de la matriz llena, se puede observar una baja estabilidad ante tamaños de matrices pequeños tanto en su tiempo de ensamblado como también en el tiempo de solución, esto está pasando en N = 0 y N = 80, para luego, llegar a una manera completamente convergente ante aumento de valores del tamaño de la matriz N. En el caso de la matriz dispersa, en ambos casos existe una completa linealidad en el aumento del tiempo en función del tamaño N, donde no es posible captar a simple vista pequeños incrementos de tiempo en diferentes números de corridas. 
